@@ -11,6 +11,8 @@ RUN npm install -g @nestjs/cli@10.0.0
 
 COPY . .
 
+USER node
+
 EXPOSE 3000
 
 ENV PORT 3000
