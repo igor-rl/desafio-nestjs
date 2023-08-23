@@ -4,10 +4,13 @@ RUN apt update && apt install -y openssl procps
 
 WORKDIR /home/node/app
 
-USER node
+COPY package*.json ./
+RUN npm install
+
+RUN npm install -g @nestjs/cli@10.0.0
+
+COPY . .
 
 EXPOSE 3000
 
 ENV PORT 3000
-
-CMD ["npm", "dev"]

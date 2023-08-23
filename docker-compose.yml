@@ -5,7 +5,7 @@ services:
     container_name: nestjs
     build: .
     restart: always
-    command: ["npm", "run", "start:dev"]
+    command: ["sh", "-c", "npx prisma generate && npm run start:dev"]
     ports:
       - 3000:3000
     volumes:
