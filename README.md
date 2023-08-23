@@ -17,6 +17,10 @@ Prudentópolis, 22 de agosto de 2013.
 ## Índice
 
 - [Informações do desafio](#informações-do-desafio)
+- [Solução proposta](#solução-proposta)
+- [Instalação do projeto](#instalação-do-projeto)
+- [Executar o projeto em ambiente Docker](#executar-o-projeto-em-ambiente-docker)
+- [Testes dos recursos da API](#testes-dos-recursos-da-api)
 
 ## Informações do desafio
 "Neste desafio, você deve criar uma aplicação Nest.js com Docker que rode na porta 3000.
@@ -72,7 +76,7 @@ Inicie o projeto com Docker:
 docker compose up
 ```
 
-## Testes dos recursos
+## Testes dos recursos da API
 
 Na raiz do projeto, abra o arquivo `api.http` para testar os recursos de GET e POST.
 
