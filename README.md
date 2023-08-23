@@ -72,8 +72,8 @@ Inicie o projeto com Docker:
 docker compose up
 ```
 
-## Acesse o projeto e documentação Swagger
+## Testes dos recursos
 
-Acesse a api em [localhost:3000](http://localhost:3000).
+Na raiz do projeto, abra o arquivo `api.http` para testar os recursos de GET e POST.
 
-A documentação swagger do projeto estará disponível em [localhost:3000/api](http://localhost:3000/api).
+Para testar as demais fincionalidades da API, acesse a documentação swagger do projeto em [localhost:3000/api](http://localhost:3000/api).
