@@ -1,0 +1,18 @@
+### Criar rotas
+Post http://localhost:3000/routes
+Content-Type: application/json
+
+{
+  "name": "string",
+  "source": {
+    "lat": 0,
+    "lng": 0
+  },
+  "destination": {
+    "lat": 0,
+    "lng": 0
+  }
+}
+
+### Listar routas
+Get http://localhost:3000/routes
