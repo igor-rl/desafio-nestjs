@@ -8,7 +8,6 @@ services:
     command: ["npm", "run", "start:dev"]
     ports:
       - 3000:3000
-      - 5555:5555
     volumes:
       - .:/home/node/app
   

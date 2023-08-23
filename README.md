@@ -55,12 +55,17 @@ Para instalar o projeto, execute o comando:
 gh repo clone igorRL/desafio-nestjs
 ```
 
-## Executar o projeto em ambiente Docker
-
 Acesse o projeto:
 ```yml
 cd desafio-nestjs
 ```
+
+Instale as dependências do projeto:
+```yml
+npm install
+```
+
+## Executar o projeto em ambiente Docker
 
 Inicie o projeto com Docker:
 ```yml
